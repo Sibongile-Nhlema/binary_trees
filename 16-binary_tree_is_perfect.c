@@ -5,7 +5,7 @@
  * @tree: pointer to the root node of the tree to check
  * Return: 1 if the tree is full, otherwise 0
  */
-int binary_tree_is_prefect(const binary_tree_t *tree)
+int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
